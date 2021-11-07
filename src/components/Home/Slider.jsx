@@ -25,16 +25,17 @@ function Slider() {
         showStatus={false}
          >
             {resistance.map((resist) => (
-                <div key={resist.id}>
+                <div key={resist.id} className="container-slider">
                     < resistance resist={resist} />
                     <div className="photo">
                     <img className="picture" src={resist.image} alt="" />
+                    <p className="overlay_quote">{resist.quote}</p>
                     </div>
                     <div className="overlay">
                     <Link to={{ pathname: `/Detail/${resist.id}`}}>
                         <h2 className="overlay_name">{resist.name}</h2>
                     </Link>
-                        <p className="overlay_quote">{resist.quote}</p>
+                        
                     </div>
                 </div>
             ))}
