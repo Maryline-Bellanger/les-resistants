@@ -19,10 +19,10 @@ function Home() {
                 </div>
             </div>
             <div className="link-to">
-            <Link to={{ pathname: `/1`}}>
+            <Link to={{ pathname: `/1`}} className="text_link">
                <div className="bloc1">Les Ennemis</div>
             </Link>
-            <Link to={{ pathname: `/contact`}}>  
+            <Link to={{ pathname: `/contact`}} className="text_link">  
                <div className="bloc2">Messages</div>
             </Link>
           

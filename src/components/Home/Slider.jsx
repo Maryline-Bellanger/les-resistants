@@ -32,7 +32,7 @@ function Slider() {
                     <p className="overlay_quote">{resist.quote}</p>
                     </div>
                     <div className="overlay">
-                    <Link to={{ pathname: `/Detail/${resist.id}`}}>
+                    <Link to={{ pathname: `/Detail/${resist.id}`}} className="overlay_link">
                         <h2 className="overlay_name">{resist.name}</h2>
                     </Link>
                         

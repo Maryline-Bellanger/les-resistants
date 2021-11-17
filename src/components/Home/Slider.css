@@ -4,7 +4,9 @@
     
 }
 .overlay_quote {
-    width: 60vh;
+    display: flex;
+    justify-content: center;
+    width: 46vh;
     position: absolute;
     transform: translateY(-50);
     padding: 1rem 3rem;
@@ -16,7 +18,7 @@
 
 .overlay {
     display: flex;
-    width: 60vh;
+    width: 46vh;
     justify-content: center;
     margin: 0.5%;
 }
@@ -28,22 +30,27 @@
 .carousel .overlay_name {
   margin: 0.8em 0 5rem ;
   text-align: center;
+  font-size: 130%;
+}
+
+.overlay_link {
+    text-decoration: none;
 }
 
 .picture {
-    height: 78vh;
+    height: 64vh;
 }
 
 .photo {
-    width: 60vh;
-    height: 78vh;
+    width: 46vh;
+    height: 64vh;
     display: flex;
     align-items: flex-end;
 }
 
 .Title {
     margin-top: 1%;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 @media screen and (max-width:600px) {

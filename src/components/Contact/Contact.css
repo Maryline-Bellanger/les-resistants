@@ -59,4 +59,5 @@ input[type=submit]:hover {
 .link-contact {
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }

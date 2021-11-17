@@ -3,13 +3,13 @@
     padding-top: 10%;
     padding-bottom: 50%;
 }
-p {
+p .non {
     margin-top: 27px;
     font-size: 25px;
     text-align: center;
     color: cornsilk;
 }
-h1{
+h1 .titre {
   font-size: auto;
   text-align: center;
   margin-top: 375px;

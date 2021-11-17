@@ -25,6 +25,8 @@
     margin-top: 100px;
     margin-bottom: 80px;
     font-family: var(--six-font-familly);
+    letter-spacing: 3px;
+    line-height: 120%;
     color: cornsilk;
     
     
@@ -46,11 +48,12 @@
     background-color:var(--first-color);
 }
 
-li{
-    
-   display: flex;
-   align-self: center;
+li {
+    display: flex;
+    align-self: center;
     font-family: var(--six-font-familly);
+    letter-spacing: 3px;
+    line-height: 120%;
 }
 
 .sub{
@@ -58,10 +61,11 @@ li{
     justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 26px;
-    line-height: 26px;
     padding: 12px;
     border-radius: 8px;
     font-family: var(--six-font-familly);
+    letter-spacing: 3px;
+    line-height: 120%;
     font-weight: normal;
     text-decoration: none;
     font-style: normal;

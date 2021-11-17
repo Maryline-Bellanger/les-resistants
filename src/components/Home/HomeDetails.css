@@ -43,4 +43,5 @@
 .link-detail {
     color: var(--fourth-color);
     padding-bottom: 50vw;
+    text-decoration: none;
 }

@@ -44,6 +44,7 @@ function Game(props) {
                     <NaziList />
                 </div>
             </div>
+            <Link className='game-detail' to={{pathname:'/Home'}}>Retour à la page accueil</Link>
             {/* <Link className='game-detail' to={{pathname:'/Home'}}>Retour à la page accueil</Link> */}
         </div>
     )}
