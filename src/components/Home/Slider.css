@@ -1,25 +1,22 @@
-  /* .container-slider{
-    width: 58vh;
-    height: 80vh
-  } */
-
-  .overlay_quote {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    width: 42vh;
+.container-slider {
+    width: auto;
+    height: auto;
+    
+}
+.overlay_quote {
+    width: 60vh;
     position: absolute;
-    /* top:61%; */
     transform: translateY(-50);
     padding: 1rem 3rem;
     text-align: left;
     background: rgba(0, 0, 0.6);
     color: #FFFF;
     font-size:80%;
-    /* align-items: flex-end; */
 }
 
 .overlay {
     display: flex;
+    width: 60vh;
     justify-content: center;
     margin: 0.5%;
 }
@@ -30,16 +27,17 @@
 
 .carousel .overlay_name {
   margin: 0.8em 0 5rem ;
+  font-size: larger;
+  text-align: center;
 }
 
 .picture {
-    /* width: 55vh; */
-    height: 58vh;
+    height: 78vh;
 }
 
 .photo {
-    width: 42vh;
-    height: 58vh;
+    width: 60vh;
+    height: 78vh;
     display: flex;
     align-items: flex-end;
 }
