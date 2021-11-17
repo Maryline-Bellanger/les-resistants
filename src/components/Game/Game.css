@@ -10,7 +10,7 @@
 .Battle {
     margin-top: 50px;
     width: 80vw;
-    height: 75%;
+    /* height: 75%; */
     display: flex;
     justify-content: center;
 }

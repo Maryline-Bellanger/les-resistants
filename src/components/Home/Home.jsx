@@ -25,9 +25,6 @@ function Home() {
             <Link to={{ pathname: `/contact`}} className="text_link">  
                <div className="bloc2">Messages</div>
             </Link>
-          
-               <div className="bloc3">Liens</div>
-            
             </div>
         </div>
     )

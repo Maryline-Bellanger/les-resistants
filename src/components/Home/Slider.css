@@ -35,6 +35,7 @@
 
 .overlay_link {
     text-decoration: none;
+    color: var(--fourth-color);
 }
 
 .picture {

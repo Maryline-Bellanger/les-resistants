@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Contact() {
     return (
-        <div>
+        <div className="container-contact">
             <div className="Contact">
             <div className="contact-form">Demande d'adhésion à la Résistance brave soldat!</div>
             <div class="container"> 

@@ -1,3 +1,7 @@
+.container-contact {
+    background-color: var(--third-color);
+    padding-bottom: 20vh;
+}
 .Contact {
     display: flex;
     flex-direction: column;
@@ -18,6 +22,7 @@
     text-align: center;
     margin-bottom: 70px;
     margin-top: 10px;
+    color: var(--fourth-color);
 }
 
 input[type=text], select, textarea {
@@ -52,6 +57,10 @@ input[type=submit]:hover {
     background-color: var(--third-color);
 }
 
+.submit {
+    font-family: var(--six-font-family);
+    letter-spacing: 3px;
+}
 .container {
     padding: 2%; 
 }
@@ -60,4 +69,5 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     text-decoration: none;
+    color: var(--fourth-color);
 }

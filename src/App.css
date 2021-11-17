@@ -11,7 +11,7 @@
     --second-color: #A0AFA0;
     --third-color: #97AFB9;
     --fourth-color: #004057;
-    --six-font-familly: 'Special Elite', cursive ;
+    --six-font-family: 'Special Elite', cursive ;
     
 }
 
@@ -19,7 +19,7 @@
 
 
 h1,h2,span,p,a,div {
-    font-family: var(--six-font-familly);
+    font-family: var(--six-font-family);
     /* font-family: 'Typewriter2'; */
     letter-spacing: 3px;
     line-height: 120%;
